@@ -26,11 +26,13 @@ export class ProductStore {
   async fetchProducts() {
     this.status = StoreStatus.LOADING;
     this.items = [];
+    this.filteredItems = [];
 
     const products = await ProductService.getAll();
 
     runInAction(() => {
       this.items = products;
+      this.filteredItems = products;
       this.status = StoreStatus.LOADED;
     });
   }

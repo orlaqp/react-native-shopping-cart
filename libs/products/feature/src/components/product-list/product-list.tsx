@@ -21,7 +21,7 @@ function ProductList(props: ProductListProps) {
   return (
     <ScrollView>
       <Box style={styles.list}>
-        {productStore.items.map((product) => (
+        {productStore.filteredItems.map((product) => (
           <ProductItem key={product.id} product={product}/>
         ))}
       </Box>
