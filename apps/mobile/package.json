@@ -9,6 +9,15 @@
     "react": "*",
     "react-native": "*",
     "react-native-svg": "*",
-    "metro-config": "*"
+    "metro-config": "*",
+    "react-native-svg-transformer": "*",
+    "@gluestack-ui/themed": "*",
+    "@gluestack-ui/config": "*",
+    "@react-navigation/native": "*",
+    "@react-navigation/native-stack": "*",
+    "react-native-screens": "*",
+    "react-native-safe-area-context": "*",
+    "mobx-react": "*",
+    "mobx": "*"
   }
 }

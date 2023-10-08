@@ -14,7 +14,15 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@cart/cart/data-access": ["libs/cart/data-access/src/index.ts"],
+      "@cart/cart/feature": ["libs/cart/feature/src/index.ts"],
+      "@cart/checkout/data-access": ["libs/checkout/data-access/src/index.ts"],
+      "@cart/home/feature": ["libs/home/feature/src/index.ts"],
+      "@cart/libs/checkout/feature": ["libs/checkout/feature/src/index.ts"],
+      "@cart/products/data-access": ["libs/products/data-access/src/index.ts"],
+      "@cart/products/feature": ["libs/products/feature/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
